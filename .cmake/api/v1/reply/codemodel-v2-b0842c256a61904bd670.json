@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7d0e8e412d6e667b7a0f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PyQtSheets",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PyQtSheets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PyQtSheets-Debug-3111cdd7e02c1c4ca472.json",
+					"name" : "PyQtSheets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PyQtSheets_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PyQtSheets_autogen-Debug-b674db7f3315c6c66cde.json",
+					"name" : "PyQtSheets_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/soren/build-PyQtSheets-Desktop_Qt_5_11_1_GCC_64bit-Debug",
+		"source" : "/home/soren/PyQtSheets"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
