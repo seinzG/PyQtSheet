@@ -10,7 +10,7 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
 # The ID and range of a sample spreadsheet.
 SAMPLE_SPREADSHEET_ID = '1zMDxrkGiis9USY-jtFnpVVw4Fel1Zs-2gkLWOXGOuzg'
-SAMPLE_RANGE_NAME = sys.argv[1][1:] + '!A1:A8'
+SAMPLE_RANGE_NAME = "'Update history'!A1:A8"
 
 
 def update_values(spreadsheet_id, range_name, value_input_option, _values):
@@ -41,8 +41,8 @@ def update_values(spreadsheet_id, range_name, value_input_option, _values):
 
 
 if __name__ == '__main__':
-    args = [string[1:] for string  in sys.argv[2:10]]
+    args = [string[1:] for string  in sys.argv]
     update_values(SAMPLE_SPREADSHEET_ID, SAMPLE_RANGE_NAME, 'USER_ENTERED',
                   [
-                      args
+                      args[1:]
                   ])
